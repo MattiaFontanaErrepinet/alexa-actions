@@ -1,7 +1,12 @@
 {
   "manifest": {
     "apis": {
-      "custom": {}
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py",
+          "uri": "ask-custom-notifications"
+        }
+      }
     },
     "manifestVersion": "1.0",
     "publishingInformation": {
@@ -24,7 +29,10 @@
         "es-ES": {
           "name": "Actionable notifications"
         }
-      }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "distributionCountries": []
     }
   }
 }
